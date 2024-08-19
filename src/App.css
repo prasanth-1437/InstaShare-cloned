@@ -1,0 +1,14 @@
+*{
+    font-family: Roboto;
+}
+button{
+    background-color: rgb(53, 110, 231);
+    color:white;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+}
+.linktag{
+    text-decoration: none;
+    color: black;
+}

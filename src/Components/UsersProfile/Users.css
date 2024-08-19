@@ -1,0 +1,15 @@
+#Profile-Pic{
+    width: 180px;
+    height: 180px;
+    /* background-color: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4); */
+    background-color: white;
+    border-radius: 50%;
+  }
+  #Profile-Pic img{
+    /* width: 178px;
+    height: 178px; */
+    border-radius: 50%;
+    /* position: absolute;
+    top: 12px;
+    left:5px */
+  }

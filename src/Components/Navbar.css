@@ -1,0 +1,117 @@
+#Navbar {
+    min-width: 98vw; /* Ensure full width */
+    height: 60px; /* Consistent height */
+    padding: 10px 20px; /* Adjust padding */
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(205, 205, 205);
+    box-shadow: 2px 2px 2px solid whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo-main {
+    display: flex;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+}
+/* #logo-main img{
+    width: 50px;
+    height: 40px;
+   
+} */
+#mobile {
+    display: none;
+}
+
+#Menu {
+    display: flex; /* Display menu items in a row by default */
+    align-items: center;
+    width: auto; /* Auto width to fit content */
+}
+
+#Menu ul {
+    list-style-type: none;
+    display: flex; /* Flex container for row display */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#Menu ul li {
+    margin: 0 15px; /* Space between menu items */
+}
+
+#search-con {
+    display: flex;
+
+}
+
+#search-con input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 769px) {
+    #Navbar {
+        flex-direction: column;
+        min-width: 98vw; /* Ensure full width */
+        height: 60px; /* Consistent height */
+        padding: 6px 10px;
+         /* Adjust paddinpadding: 10px;g for mobile */
+    }
+   #Navbar-sm{
+    height: 70px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+   }
+    #logo {
+        width: 100%; /* Full width for mobile */
+        justify-content: space-between;
+
+    }
+
+    #mobile {
+        display: block;
+        cursor: pointer; /* Add cursor style for better UX */
+        margin-bottom: 10px; /* Space between toggle and menu */
+        margin-right: 25px;
+    }
+
+    #Menu {
+        display: none; /* Hide menu by default on mobile */
+        /* flex-direction: column; */
+        width: 100%; /* Full width for mobile menu */
+    }
+
+    #Menu.Menu-active {
+        display: flex; /* Show menu when active */
+        padding: 3px; /* Adjust padding for mobile menu */
+    }
+
+    #Menu ul {
+        display: flex;
+        justify-content: space-between;
+        /* Full width for menu items */
+    }
+
+    #Menu ul li {
+        /* margin: 10px 0; Space between menu items */
+    }
+   
+     #search-con {
+        
+     }
+    #search-con i {
+       display: none;
+    }
+    #Logout{
+        padding: 5px;
+        height: 23px;
+    }
+}

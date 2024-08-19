@@ -1,0 +1,30 @@
+#PageNotFound{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+#NotFoundCenter{
+    width: 500px;
+    height: 500px;
+
+
+}
+#Ntfound-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Ntfound-matter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+#Ntfound-matter p{
+    color:rgb(162, 166, 170)
+}
